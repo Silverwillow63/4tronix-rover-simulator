@@ -14,13 +14,13 @@ We normally use the [Python](https://www.python.org) programming language to pro
 3. You need to get the terminal (or command) window into this directory. So type `cd` then a space, and then the path you just determined in the previous step (you can use Ctrl-V to paste it in if you copied it to the clipboard). So something like this:
 
 ```
-cd \dev\4tronix-rover-simulator
+cd \dev\roversim\4tronix-rover-simulator
 ```
 
 4. Next, we create something called a Python _virtual environment_. That's essentially a place to put all the libraries this code uses. Run this command:
 
 ```
-py -m venv env
+python -m venv env
 ```
 
 5. Next, you need to activate this environment. (Activating it means telling the command window to use this Python environment.):
@@ -60,6 +60,10 @@ If you've just finished the 'first time' steps from the preceding section, and y
 1. Open a Windows Terminal window (or Command Prompt.)
 2. Find the path to the folder that this code is in. (If you're in VS Code, you can right click the README.md tab at the top of this page, and select **Reveal in File Explorer**. In the Windows File Explorer that opens, click in the address bar at the top to select the folder path then hit Ctrl-C.)
 3. You need to get the terminal (or command) window into this directory. So type `cd` then a space, and then the path you just determined in the previous step (you can use Ctrl-V to paste it in if you copied it to the clipboard). So something like this:
+
+```
+cd \dev\roversim\4tronix-rover-simulator
+```
 
 4. Activate the environment by running this command:
 
